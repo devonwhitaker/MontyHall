@@ -102,7 +102,7 @@ animate = FuncAnimation(fig, update, frames=trials, interval=1, blit=False, repe
 
 plt.tight_layout()
 writer = PillowWriter(fps=250)
-animate.save("C:/Users/devon/Desktop/monty_hall_simulation.gif", writer=writer)
+animate.save("monty_hall_simulation.gif", writer=writer)
 plt.show()
 _ = animate
 
